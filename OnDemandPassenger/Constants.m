@@ -6,6 +6,6 @@
 #import "Constants.h"
 
 #warning Replace with your app id
-NSString * APP_ID = @"YOUR_APP_ID";
+NSString * APP_ID = @"TQuyOFX2nNRkFGjjVKDy";
 #warning Replace with your app code
-NSString * APP_CODE = @"YOUR_APP_CODE";
+NSString * APP_CODE = @"AjHEwCIGwgYARgN0pg7tBA";
