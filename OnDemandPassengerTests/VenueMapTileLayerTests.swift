@@ -24,9 +24,16 @@ class VenueMapTileLayerTests: XCTestCase {
   
   // test edge case of 0 as input.
   func testQuadkeyGenerationZero() {
-    let finalString: NSString = "00000"
+    let finalString = "00000"
     let testString = VenueMapTileLayerUtility.quadKeyFrom(x: 0, y: 0, zoomLevel: 5)
-    XCTAssert(finalString as String == testString)
+    XCTAssert(finalString == testString)
+  }
+  
+  // test regular use case.
+  func testQuadkeyGenerationRegular() {
+    let finalString = "10102323"
+    let testString = VenueMapTileLayerUtility.quadKeyFrom(x: 0b10100101, y: 0b00001111, zoomLevel: 8)
+    XCTAssert(finalString == testString)
   }
   
 }
