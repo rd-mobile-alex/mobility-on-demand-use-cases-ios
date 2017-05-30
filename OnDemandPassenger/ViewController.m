@@ -61,6 +61,7 @@
     if (title) {
         if (self.segueSender == self.fromButton) {
             [self.fromButton setTitle:[NSString stringWithFormat:@"From: %@", title] forState:UIControlStateNormal];
+            self.fromButton.accessibilityLabel = title;
             self.fromPlaceLink = sourceVC.selectedResult;
         } else if (self.segueSender == self.toButton) {
             [self.toButton setTitle:[NSString stringWithFormat:@"To: %@", title] forState:UIControlStateNormal];

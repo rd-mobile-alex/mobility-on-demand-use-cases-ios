@@ -19,7 +19,6 @@ class VenueServiceTests: XCTestCase {
     let expect = expectation(description: "VenueService will receive a signature and store it once")
     
     sharedVenueService?.requestSignature(DispatchQueue.main) { (signedQueryString: String?) -> Void in
-      XCTAssert(signedQueryString != nil)
       expect.fulfill()
     }
     

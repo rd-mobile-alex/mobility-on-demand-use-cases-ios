@@ -38,14 +38,11 @@ class OnDemandPassengerUITests: XCTestCase {
     app.children(matching: .window).element(boundBy: 0).children(matching: .other).element.children(matching: .other).element.children(matching: .other).element.children(matching: .other).element.tap()
   }
   
-  func testSearchViewControllerViewIsUpdatedProperly() {
+  func testSearchViewControllerViewIsUpdatedProperlyAndReceivesCorrectValues() {
     
     let app = XCUIApplication()
     app.buttons["From:"].tap()
-    
-    let emptyListTable = app.tables["Empty list"]
-    emptyListTable.tap()
-    emptyListTable.searchFields["Search"].tap()
+    app.tables["Empty list"].searchFields["Search"].tap()
     app.searchFields["Search"].typeText("2425 Warring St")
     app.children(matching: .window).element(boundBy: 0).children(matching: .other).element.children(matching: .other).element.children(matching: .other).element.children(matching: .other).element.tap()
   }
