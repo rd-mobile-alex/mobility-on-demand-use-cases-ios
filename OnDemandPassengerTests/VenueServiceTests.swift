@@ -6,16 +6,26 @@
 import XCTest
 
 class VenueServiceTests: XCTestCase {
-  var vc: SearchViewController!
+  var sharedVenueService: VenueService?
   
   override func setUp() {
     super.setUp()
     
-    let storyboard = UIStoryboard(name: "Main", bundle: Bundle.main)
-    vc = storyboard.instantiateViewController(withIdentifier: "SearchViewController") as! SearchViewController
+    sharedVenueService = VenueService()
   }
   
   func testPlacesRequestTriggeredProperly() {
-    print(vc.accessibilityElements)
+    
+    let expect = expectation(description: "VenueService will receive a signature and store it once")
+    
+    sharedVenueService?.requestSignature(DispatchQueue.main) { (signedQueryString: String?) -> Void in
+      XCTAssert(signedQueryString != nil)
+      expect.fulfill()
+    }
+    
+    waitForExpectations(timeout: 10) { error in
+      print(error ?? "error message not available")
+    }
   }
+  
 }

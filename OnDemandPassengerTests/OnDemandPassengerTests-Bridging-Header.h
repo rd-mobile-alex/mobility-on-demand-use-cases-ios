@@ -6,3 +6,4 @@
 #import "VenueMapTileLayerUtility.h"
 #import "VenueMapTileLayer.h"
 #import "SearchViewController.h"
+#import "VenueService.h"
