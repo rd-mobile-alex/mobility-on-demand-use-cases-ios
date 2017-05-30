@@ -38,6 +38,16 @@
                ReferencedContainer = "container:OnDemandPassenger.xcodeproj">
             </BuildableReference>
          </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "7D861D891ED8EED000F3B6B6"
+               BuildableName = "OnDemandPassengerUITests.xctest"
+               BlueprintName = "OnDemandPassengerUITests"
+               ReferencedContainer = "container:OnDemandPassenger.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference

@@ -1,10 +1,7 @@
-//
-//  VenueMapTileLayerTests.swift
-//  OnDemandPassenger
-//
-//  Created by Killion, Connor on 5/2/17.
-//  Copyright © 2017 HERE. All rights reserved.
-//
+/*
+ * Copyright (c) 2017 HERE Europe B.V.
+ * All rights reserved.
+ */
 
 import XCTest
 

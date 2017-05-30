@@ -4,3 +4,5 @@
 
 #import "ViewController.h"
 #import "VenueMapTileLayerUtility.h"
+#import "VenueMapTileLayer.h"
+#import "SearchViewController.h"

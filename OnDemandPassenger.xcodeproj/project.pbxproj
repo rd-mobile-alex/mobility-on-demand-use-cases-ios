@@ -28,11 +28,20 @@
 		1F19A7B91D0F4ACF00177D67 /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F19A7B81D0F4ACF00177D67 /* SearchViewController.m */; };
 		7D861D801ED4E04400F3B6B6 /* VenueMapTileLayerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D861D7F1ED4E04400F3B6B6 /* VenueMapTileLayerTests.swift */; };
 		7D861D821ED4E11B00F3B6B6 /* VenueMapTileLayerUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D861D811ED4E11B00F3B6B6 /* VenueMapTileLayerUtility.m */; };
+		7D861D851ED742B800F3B6B6 /* VenueServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D861D841ED742B800F3B6B6 /* VenueServiceTests.swift */; };
+		7D861D8D1ED8EED000F3B6B6 /* OnDemandPassengerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D861D8C1ED8EED000F3B6B6 /* OnDemandPassengerUITests.swift */; };
 		DF899ABEB83E054A38AB279D /* Pods_OnDemandPassengerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA6C2B5E9F2059C75E9DAEA6 /* Pods_OnDemandPassengerTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		1C07D1641EA8E034002E88D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F19A7801D00A9DE00177D67 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F19A7871D00A9DE00177D67;
+			remoteInfo = OnDemandPassenger;
+		};
+		7D861D8F1ED8EED000F3B6B6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 1F19A7801D00A9DE00177D67 /* Project object */;
 			proxyType = 1;
@@ -87,6 +96,10 @@
 		7D861D7F1ED4E04400F3B6B6 /* VenueMapTileLayerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VenueMapTileLayerTests.swift; sourceTree = "<group>"; };
 		7D861D811ED4E11B00F3B6B6 /* VenueMapTileLayerUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VenueMapTileLayerUtility.m; sourceTree = "<group>"; };
 		7D861D831ED4E15500F3B6B6 /* VenueMapTileLayerUtility.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VenueMapTileLayerUtility.h; sourceTree = "<group>"; };
+		7D861D841ED742B800F3B6B6 /* VenueServiceTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VenueServiceTests.swift; sourceTree = "<group>"; };
+		7D861D8A1ED8EED000F3B6B6 /* OnDemandPassengerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OnDemandPassengerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D861D8C1ED8EED000F3B6B6 /* OnDemandPassengerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnDemandPassengerUITests.swift; sourceTree = "<group>"; };
+		7D861D8E1ED8EED000F3B6B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		91A2A30C4939160D2E6BBB74 /* Pods_OnDemandPassenger.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OnDemandPassenger.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA6C2B5E9F2059C75E9DAEA6 /* Pods_OnDemandPassengerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OnDemandPassengerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8B73ADC26609BA5DBB2494E /* Pods-OnDemandPassengerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OnDemandPassengerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-OnDemandPassengerTests/Pods-OnDemandPassengerTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -115,6 +128,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		7D861D871ED8EED000F3B6B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -125,6 +145,7 @@
 				1C07D1691EA8E216002E88D6 /* ViewControllerTests.m */,
 				7D861D7F1ED4E04400F3B6B6 /* VenueMapTileLayerTests.swift */,
 				7D861D7E1ED4E04400F3B6B6 /* OnDemandPassengerTests-Bridging-Header.h */,
+				7D861D841ED742B800F3B6B6 /* VenueServiceTests.swift */,
 			);
 			path = OnDemandPassengerTests;
 			sourceTree = "<group>";
@@ -150,6 +171,7 @@
 				1CCE15C81E9BD70900B62D82 /* NMAKit.framework */,
 				1F19A78A1D00A9DF00177D67 /* OnDemandPassenger */,
 				1C07D1601EA8E034002E88D6 /* OnDemandPassengerTests */,
+				7D861D8B1ED8EED000F3B6B6 /* OnDemandPassengerUITests */,
 				1F19A7891D00A9DE00177D67 /* Products */,
 				1CCE15B61E9BD52200B62D82 /* Frameworks */,
 				E093C612A27751E1B3120D81 /* Pods */,
@@ -161,6 +183,7 @@
 			children = (
 				1F19A7881D00A9DE00177D67 /* OnDemandPassenger.app */,
 				1C07D15F1EA8E034002E88D6 /* OnDemandPassengerTests.xctest */,
+				7D861D8A1ED8EED000F3B6B6 /* OnDemandPassengerUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -196,6 +219,15 @@
 				1F19A78C1D00A9DF00177D67 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7D861D8B1ED8EED000F3B6B6 /* OnDemandPassengerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7D861D8C1ED8EED000F3B6B6 /* OnDemandPassengerUITests.swift */,
+				7D861D8E1ED8EED000F3B6B6 /* Info.plist */,
+			);
+			path = OnDemandPassengerUITests;
 			sourceTree = "<group>";
 		};
 		E093C612A27751E1B3120D81 /* Pods */ = {
@@ -251,12 +283,31 @@
 			productReference = 1F19A7881D00A9DE00177D67 /* OnDemandPassenger.app */;
 			productType = "com.apple.product-type.application";
 		};
+		7D861D891ED8EED000F3B6B6 /* OnDemandPassengerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D861D911ED8EED000F3B6B6 /* Build configuration list for PBXNativeTarget "OnDemandPassengerUITests" */;
+			buildPhases = (
+				7D861D861ED8EED000F3B6B6 /* Sources */,
+				7D861D871ED8EED000F3B6B6 /* Frameworks */,
+				7D861D881ED8EED000F3B6B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7D861D901ED8EED000F3B6B6 /* PBXTargetDependency */,
+			);
+			name = OnDemandPassengerUITests;
+			productName = OnDemandPassengerUITests;
+			productReference = 7D861D8A1ED8EED000F3B6B6 /* OnDemandPassengerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		1F19A7801D00A9DE00177D67 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0820;
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = HERE;
 				TargetAttributes = {
@@ -270,6 +321,11 @@
 						CreatedOnToolsVersion = 7.3.1;
 						DevelopmentTeam = VBXQ6PFL23;
 						ProvisioningStyle = Automatic;
+					};
+					7D861D891ED8EED000F3B6B6 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1F19A7871D00A9DE00177D67;
 					};
 				};
 			};
@@ -288,6 +344,7 @@
 			targets = (
 				1F19A7871D00A9DE00177D67 /* OnDemandPassenger */,
 				1C07D15E1EA8E034002E88D6 /* OnDemandPassengerTests */,
+				7D861D891ED8EED000F3B6B6 /* OnDemandPassengerUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -308,6 +365,13 @@
 				1F19A79B1D00A9DF00177D67 /* LaunchScreen.storyboard in Resources */,
 				1F19A7961D00A9DF00177D67 /* Main.storyboard in Resources */,
 				1CCE15CB1E9BD71200B62D82 /* NMABundle.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D861D881ED8EED000F3B6B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -398,6 +462,7 @@
 			files = (
 				7D861D801ED4E04400F3B6B6 /* VenueMapTileLayerTests.swift in Sources */,
 				1C07D16A1EA8E216002E88D6 /* ViewControllerTests.m in Sources */,
+				7D861D851ED742B800F3B6B6 /* VenueServiceTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,6 +481,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		7D861D861ED8EED000F3B6B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D861D8D1ED8EED000F3B6B6 /* OnDemandPassengerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -423,6 +496,11 @@
 			isa = PBXTargetDependency;
 			target = 1F19A7871D00A9DE00177D67 /* OnDemandPassenger */;
 			targetProxy = 1C07D1641EA8E034002E88D6 /* PBXContainerItemProxy */;
+		};
+		7D861D901ED8EED000F3B6B6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1F19A7871D00A9DE00177D67 /* OnDemandPassenger */;
+			targetProxy = 7D861D8F1ED8EED000F3B6B6 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -629,6 +707,41 @@
 			};
 			name = Release;
 		};
+		7D861D921ED8EED000F3B6B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				INFOPLIST_FILE = OnDemandPassengerUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.here.OnDemandPassengerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = OnDemandPassenger;
+			};
+			name = Debug;
+		};
+		7D861D931ED8EED000F3B6B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				INFOPLIST_FILE = OnDemandPassengerUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.here.OnDemandPassengerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = OnDemandPassenger;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -658,6 +771,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		7D861D911ED8EED000F3B6B6 /* Build configuration list for PBXNativeTarget "OnDemandPassengerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D861D921ED8EED000F3B6B6 /* Debug */,
+				7D861D931ED8EED000F3B6B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
